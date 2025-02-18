@@ -90,5 +90,5 @@ This comparison helps visualize how smoothing affects edge detection.
 - Extend to **Canny Edge Detection** for further comparison.
 - Optimize convolution using **NumPy vectorization**.
 
-## 📜 License
-This project is open-source and free to use.
+##Conclusion 
+- Since Laplacian alone is sensitive to noise, Gaussian smoothening is used to remove noise first and then Laplacian is applied which makes it more effective than normal. 
